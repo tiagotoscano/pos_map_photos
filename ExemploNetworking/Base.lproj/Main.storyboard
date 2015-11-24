@@ -290,7 +290,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yS-63-eTx">
                                 <rect key="frame" x="92" y="347" width="191" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Save"/>
+                                <state key="normal" title="Login"/>
                                 <connections>
                                     <segue destination="QO8-dn-pAR" kind="show" id="pfK-fd-Xlh"/>
                                 </connections>

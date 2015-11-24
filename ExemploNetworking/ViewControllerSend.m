@@ -84,7 +84,7 @@ constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
 }
           success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
               
-              NSLog(@"TUDO OK");
+              NSLog(@"TUDO OK...");
               [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
               [self.navigationController popViewControllerAnimated:NO];
               
