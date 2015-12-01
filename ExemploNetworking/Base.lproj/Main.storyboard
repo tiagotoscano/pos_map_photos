@@ -356,6 +356,17 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3Uv-8U-2YG">
+                                <rect key="frame" x="20" y="90" width="100" height="29"/>
+                                <animations/>
+                                <segments>
+                                    <segment title="Pin"/>
+                                    <segment title="Img"/>
+                                </segments>
+                                <connections>
+                                    <action selector="swPinAndImg:" destination="QO8-dn-pAR" eventType="valueChanged" id="G2c-u6-bIa"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
